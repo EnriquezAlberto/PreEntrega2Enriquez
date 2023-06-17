@@ -1,0 +1,204 @@
+* {
+     margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+
+p {
+    margin: 10px 0;
+}
+
+h3 {
+    margin: 10px 10px;
+    text-align: center;
+}
+
+
+a:hover{
+    color: rgb(19, 11, 11);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.nav {
+    background-color: #ffffff;
+      padding: 10px;
+      justify-content: center;
+}
+
+.grupo-h h1 {
+    margin: 10px 0;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+
+ .grupo-h h2 {
+    margin-top: 40px;
+    letter-spacing: 1px;
+}
+
+h1, h2 {
+    margin: 15px 0;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+img {
+    margin: 25px 0;
+    width: 80%;
+    height: 330px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+button {
+    background-color: rgb(6, 5, 9);
+    width: 80%;
+    padding: 8px;
+    color: white;
+   border-radius: 10px;
+    justify-content: center;
+}
+
+a {
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.botones {
+    display: block;
+    justify-content: center;
+    align-items: center;
+ 
+   
+}
+
+.grupo-h {
+    margin: 0px 0;
+    color: white;
+    background: #212121;
+    padding: 102px;
+}
+
+.marca {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
+
+.col-sm-6{
+    margin: 39px 0;
+}
+
+.h2-proyecto{
+    margin: 52px 0;
+    font-weight: 700px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+label {
+    margin: 15px;
+    font-size: 20px;
+   
+}
+
+.boton-formulario {
+    margin-top: 20px;
+    width: 30%;
+}
+
+input {
+    width: 30%;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.mensaje {
+    padding: 43px;
+}
+
+footer {
+    background-color: #212121;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 45px;
+    text-align: center;
+    margin-top: 44px;
+}
+
+footer p {
+    font-size: 20px;
+}
+
+span {
+   
+   justify-content: center;
+}
+
+.sobre-nosotros {
+    display: flex;
+    flex-direction: column;
+    font-weight: 700px;
+    text-align: center;
+    margin: 25px 0;
+    font-size: 22px;
+    align-items: center;
+}
+
+.sobre-nosotros p {
+    margin: 20px 0;
+}
+
+.cuadro h1,h2 {
+    font-weight: 800px;
+    text-transform: uppercase;
+    margin: 30px 0;
+}
+
+.cuadro {
+    color: white;
+    background-color: #292929;
+    padding: 45px;
+    margin: 30px 0;
+}
+
+@media (max-width: 767px) {
+    html, nav, body {
+      overflow-x: hidden; 
+      width: 100%; 
+      margin: 0; 
+      padding: 0;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    nav {
+      display: flex;
+      flex-direction: column;
+    }
+    nav a {
+        display: block;
+        margin-bottom: 10px;
+      }
+}
+
+@media (max-width: 2560px) {
+    img, button{
+     width: 100%;
+     height: auto;
+    }
+
+}
+
+
